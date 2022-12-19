@@ -11,4 +11,4 @@ numY = int(input())
 print('Введите значение Z: ')
 numZ = int(input())
 
-print(not(numX and numY and numZ)) == (not numX or not numY or not numZ)
+print(not(numX or numY or numZ)) == (not numX and not numY and not numZ)
