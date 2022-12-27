@@ -14,7 +14,7 @@ list1 = create_list()
 list2 = []
 
 for i in range(len(list1)):
-    while i < len(list1) / 2:
+    if i < len(list1) / 2:
         list2.append(list1[i] * list1[(1+i)*(-1)])
 
 print(list1)
